@@ -14,6 +14,7 @@ public enum SupportedBrowsers {
     private WebDriverInvoker webDriverInvoker;
 
     SupportedBrowsers(WebDriverInvoker webDriverInvoker) {
+
         this.webDriverInvoker = webDriverInvoker;
     }
 
